@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background:#1d1d1d;
+  color:white;
+  font-family:Arial, sans-serif;
+  min-height:100vh;
+  padding:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.again{
+  padding:15px 30px;
+  font-size:24px;
+  border:none;
+  cursor:pointer;
+  background:white;
 }
 
-.App-link {
-  color: #61dafb;
+.range{
+  font-size:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-section{
+  text-align:center;
+  margin-top:40px;
+  position:relative;
+}
+
+.title-section h1{
+  font-size:70px;
+  margin-bottom:40px;
+}
+
+.number-box{
+  width:140px;
+  height:120px;
+  background:white;
+  color:black;
+  font-size:80px;
+  font-weight:bold;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
+  position:relative;
+  top:40px;
+}
+
+hr{
+  border:3px solid white;
+  margin-top:-20px;
+}
+
+.game-container{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  margin-top:120px;
+}
+
+.left-section{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+}
+
+.guess{
+  width:250px;
+  height:100px;
+  background:transparent;
+  border:4px solid white;
+  color:white;
+  font-size:50px;
+  text-align:center;
+}
+
+.check-btn{
+  width:180px;
+  padding:18px;
+  font-size:32px;
+  border:none;
+  cursor:pointer;
+}
+
+.right-section{
+  display:flex;
+  flex-direction:column;
+  gap:35px;
+  font-size:35px;
+}
+
+.message{
+  margin-bottom:30px;
 }
