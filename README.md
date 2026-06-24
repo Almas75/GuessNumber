@@ -1,3 +1,135 @@
+# 🎯 Guess My Number
+
+A fun and interactive number guessing game built using **React**. The player has to guess a randomly generated number between **1 and 50**. The game provides hints, keeps track of the score, and stores the highest score achieved.
+
+## 🚀 Features
+
+* 🎲 Random number generation (1–50)
+* 📉 Displays "Too Low" if the guess is smaller
+* 📈 Displays "Too High" if the guess is larger
+* 🎉 Shows success message when guessed correctly
+* 💯 Score tracking
+* 🏅 High score tracking
+* 🔄 Reset game using the "Again!" button
+* 🎨 Dynamic background color change on winning
+* ⚛️ Built using React Hooks (`useState`, `useEffect`)
+* 🧩 Component-based architecture
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── Button.jsx
+│   ├── LeftSection.jsx
+│   ├── RightSection.jsx
+│   ├── TitleSection.jsx
+│   └── NumberBox.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+---
+
+## 🛠️ Technologies Used
+
+* React
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* React Hooks (`useState`, `useEffect`)
+* Vite
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Almas75/GuessNumber.git
+```
+
+Move into the project directory:
+
+```bash
+cd GuessNumber
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎮 How to Play
+
+1. Enter a number between **1 and 50**.
+2. Click **Check!**.
+3. If the guess is:
+
+   * Lower → 📉 Too Low
+   * Higher → 📈 Too High
+   * Correct → 🎉 Correct Number
+4. Score decreases with every wrong guess.
+5. Press **Again!** to start a new game.
+
+---
+
+## 📸 Screenshot
+
+(Add a screenshot of your project here)
+
+---
+
+## 📚 Concepts Used
+
+* React Components
+* Props
+* State Management
+* Event Handling
+* Conditional Rendering
+* useState Hook
+* useEffect Hook
+* Component Reusability
+
+---
+
+## 🔮 Future Improvements
+
+* ⏳ Timer using `useEffect`
+* 🌙 Dark/Light theme
+* 📜 Guess history
+* 🎚️ Difficulty levels (Easy, Medium, Hard)
+* 💾 Store high score using Local Storage
+* ⌨️ Press Enter to submit guess
+* 🎨 Animations and sound effects
+
+---
+
+
+
+GitHub: https://github.com/Almas75
+
+---
+
+⭐ If you like this project, give it a star on GitHub!
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
